@@ -21,14 +21,14 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        // 'urlManager' => [
-        //     'enablePrettyUrl' => true,
-        //     'enableStrictParsing' => true,
-        //     'showScriptName' => false,
-        //     'rules' => [
-        //         ['class' => 'yii\rest\UrlRule', 'controller' => 'brand'],
-        //     ],
-        // ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'enableStrictParsing' => true,
+            'showScriptName' => false,
+            'rules' => [
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'brand'],
+            ],
+        ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             // send all mails to a file by default. You have to set
